@@ -1,0 +1,61 @@
+.navigation-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0 40px 0;
+}
+
+.navigation-style a{
+    text-decoration: none;
+    color: black;
+}
+
+.top-about-content{
+    border-bottom: 2px dashed black;
+    margin-bottom: 20px
+}
+
+.about-text-container {
+    width: 99%;
+    padding: 16px 1%;
+    padding-bottom: 20px;
+}
+
+.middle-about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 50%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-bottom: 1px dashed black;
+}
+
+.card button {
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius 25px;
+    font-weight: bold;
+    font-size: 9px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.card h3 {
+    padding-top: 12px;
+}
+
+.footer-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 20px 0 40px 0;
+        background-color: black;
+}
+
+.footer-nav a {
+    color: white;
+}
